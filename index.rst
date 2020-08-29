@@ -19,6 +19,7 @@ Controller
    controller/migrating.rst
    controller/troubleshooting.rst
    controller/extending.rst
+   controller/parallaxy.rst
    controller/hardware/index.rst
    controller/tts/index.rst
 
