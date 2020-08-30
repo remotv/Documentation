@@ -2,7 +2,7 @@
 Adafruit Motor Hat
 ==================
 
-.. image:: ../img/adafruit_motor_hat.png
+.. image:: ../img/hardware/adafruit_motor_hat.png
 
 Let your robotic dreams come true with the new DC+Stepper Motor HAT from Adafruit!
 This Raspberry Pi add-on is perfect for any motion project as it can drive up to

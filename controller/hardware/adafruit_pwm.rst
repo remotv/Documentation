@@ -2,7 +2,7 @@
 Adafruit PWM Servo Hat
 ======================
 
-.. image:: ../img/adafruit_pwm.jpg
+.. image:: ../img/hardware/adafruit_pwm.jpg
 
 The Raspberry Pi is a wonderful little computer, but one thing it isn't very
 good at is controlling DC servo motors - these motors need very specific and 

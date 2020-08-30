@@ -2,7 +2,7 @@
 Official Parallaxy Robot
 ========================
 
-.. image:: ./img/Parallaxy-1.jpg
+.. image:: ./img/parallaxy/Parallaxy-1.jpg
 
 **Announcing the new exclusive Parallaxy Kit from Parallax Inc. made for Remo.TV!**
 
@@ -17,35 +17,35 @@ Build Parallaxy
 #. Make sure all Activity Board WX servo ports are set to ``5V``, and if not, 
    move them. The pins marked ``VIN`` should be left bare.
 
-   .. image:: img/7380033-Parallaxy_servo_port_power.png
+   .. image:: img/parallaxy/7380033-Parallaxy_servo_port_power.png
 
 #. Charge the battery brick according to its manufacturer instructions.
 
-   .. image:: img/2939d5a-IMG_20180830_165231.jpg
-   .. image:: img/876689f-IMG_20180830_165350.jpg
+   .. image:: img/parallaxy/2939d5a-IMG_20180830_165231.jpg
+   .. image:: img/parallaxy/876689f-IMG_20180830_165350.jpg
 
 #. Seat the rubber grommet into the chassis center hole - the metal edge of the 
    hole will fit in the groove of the grommet.
 
-   .. image:: img/c366862-IMG_20180830_165647.jpg
-   .. image:: img/f3d999e-IMG_20180830_165713.jpg
+   .. image:: img/parallaxy/c366862-IMG_20180830_165647.jpg
+   .. image:: img/parallaxy/f3d999e-IMG_20180830_165713.jpg
 
 #. Attach two 1¼" threaded standoffs to the top of the chassis with ⅜" panhead
    steel screws, using outermost corner holes farthest away from the curved tail
    wheel mount.
 
-   .. image:: img/0c83a4f-IMG_20180830_170404.jpg
-   .. image:: img/0ff3983-IMG_20180830_170650.jpg
-   .. image:: img/4f80467-IMG_20180830_170922.jpg
+   .. image:: img/parallaxy/0c83a4f-IMG_20180830_170404.jpg
+   .. image:: img/parallaxy/0ff3983-IMG_20180830_170650.jpg
+   .. image:: img/parallaxy/4f80467-IMG_20180830_170922.jpg
 
 #. Take the servo horns off the servos, and *SAVE THE SCREWS!*
 
-   .. image:: img/4a7373c-IMG_20180830_171236.jpg
+   .. image:: img/parallaxy/4a7373c-IMG_20180830_171236.jpg
 
 #. Insert a servo into the chassis from the outside, with its cables trailing 
    toward the grommet hole.
 
-   .. image:: img/2762603-IMG_20180830_172233.jpg
+   .. image:: img/parallaxy/2762603-IMG_20180830_172233.jpg
 
 #. Secure the servo to the chassis with four ⅜" screws and four Nylon-core 
    lock-nuts. Repeat with the other servo.
@@ -53,72 +53,72 @@ Build Parallaxy
    .. tip:: Press the closed end of the little black wrench firmly over a 
     lock-nut to pick it up and hold it while working.
 
-   .. image:: img/df37f47-IMG_20180830_172519.jpg
-   .. image:: img/cd6eadf-IMG_20180830_173738.jpg
+   .. image:: img/parallaxy/df37f47-IMG_20180830_172519.jpg
+   .. image:: img/parallaxy/cd6eadf-IMG_20180830_173738.jpg
 
 #. Thread all of the servo cables through the grommet hole to the top of the 
    chassis.
 
-   .. image:: img/93d083a-IMG_20180830_174422.jpg
+   .. image:: img/parallaxy/93d083a-IMG_20180830_174422.jpg
 
 #. **OPTIONAL** - If adding the 5-AA battery pack for optional future use, 
    insert it under the chassis with its cable toward the grommet hole. It will 
    snap in place with a little pressure.
 
-   .. image:: img/1d26a6d-IMG_20180830_175733.jpg
+   .. image:: img/parallaxy/1d26a6d-IMG_20180830_175733.jpg
 
 #. Attach two more threaded standoffs to the top of the chassis using the two 
    remaining outermost small holes, with Nylon flat-head screws. Thread right 
    through the plastic 5-AA battery pack if using it (Nylon screws won't nick 
    and possibly short the batteries). Tighten gently.
 
-   .. image:: img/9c3ef8b-IMG_20180830_180048.jpg
+   .. image:: img/parallaxy/9c3ef8b-IMG_20180830_180048.jpg
 
 #. Attach a 1" threaded standoff to each of the two outermost slots in the 
    bottom front of the chassis (in front of the servos) and secure with ¼"
    screws.
 
-   .. image:: img/e50a194-IMG_20180830_180547.jpg
+   .. image:: img/parallaxy/e50a194-IMG_20180830_180547.jpg
 
 #. Place the four rubber feet on top of the chassis, just inside from each of 
    the standoffs. This will provide clearance for the servo cables under the 
    battery brick later.
 
-   .. image:: img/5a01b18-IMG_20180830_180724.jpg
-   .. image:: img/54eee35-IMG_20180830_180832.jpg
+   .. image:: img/parallaxy/5a01b18-IMG_20180830_180724.jpg
+   .. image:: img/parallaxy/54eee35-IMG_20180830_180832.jpg
 
 #. Place an o-ring tire onto each wheel.
 
-   .. image:: img/5d71d96-IMG_20180830_181044.jpg
+   .. image:: img/parallaxy/5d71d96-IMG_20180830_181044.jpg
 
 #. push a wheel onto each servo spline, and attach it with a reserved servo
    screw. 
 
-   .. image:: img/ca5e714-IMG_20180830_181439_1.jpg
+   .. image:: img/parallaxy/ca5e714-IMG_20180830_181439_1.jpg
 
 #. Thread the cotter pin through the side of the chassis tail mounting hole,
    through the tail wheel ball, and then through the opposite hole. Bend the 
    cotter pin end to secure the tail wheel ball.
 
-   .. image:: img/88bc5c0-IMG_20180830_181532.jpg
-   .. image:: img/c2570c4-IMG_20180830_181649.jpg
+   .. image:: img/parallaxy/88bc5c0-IMG_20180830_181532.jpg
+   .. image:: img/parallaxy/c2570c4-IMG_20180830_181649.jpg
 
 #. Place the Parallaxy Bottom Plate underneath the robot chassis, pressing the
    large rectangular area between the edges of the chassis on top of the servos.
 
-   .. image:: img/10a0b04-IMG_20180830_181815.jpg
-   .. image:: img/dc0f24f-IMG_20180830_181852.jpg
+   .. image:: img/parallaxy/10a0b04-IMG_20180830_181815.jpg
+   .. image:: img/parallaxy/dc0f24f-IMG_20180830_181852.jpg
 
 #. From underneath, secure the bottom plate to the 1" standoffs using ⅜" steel
    screws.
 
-   .. image:: img/af7ee7b-IMG_20180830_182022.jpg
+   .. image:: img/parallaxy/af7ee7b-IMG_20180830_182022.jpg
 
 #. From underneath the bottom plate, slip the slotted end of an 'L' bracket 
    between the side of the chassis and the bottom plate.
 
-   .. image:: img/2a3eb6b-IMG_20180901_165944.jpg
-   .. image:: img/be38e39-IMG_20180830_185641.jpg
+   .. image:: img/parallaxy/2a3eb6b-IMG_20180901_165944.jpg
+   .. image:: img/parallaxy/be38e39-IMG_20180830_185641.jpg
 
 #. Loosly attach the 'L' bracket to the outer side of the chassis, behind the 
    servo, in the chassis middle slot, using a ½" Nylon pan-head screw and a 
@@ -140,54 +140,54 @@ Build Parallaxy
 
 #. Peel paper off both sides of the Parallaxy acrylic top plate.
 
-   .. image:: img/a2e32db-IMG_20180830_190607.jpg
-   .. image:: img/84bb660-IMG_20180830_191601.jpg
+   .. image:: img/parallaxy/a2e32db-IMG_20180830_190607.jpg
+   .. image:: img/parallaxy/84bb660-IMG_20180830_191601.jpg
 
 #. Attach four ⅝" threaded standoffs to the top of the Raspberry Pi board
    using ¼" steel screws.
 
-   .. image:: img/c5acc91-IMG_20180830_190122.jpg
-   .. image:: img/133da54-IMG_20180830_190526.jpg
+   .. image:: img/parallaxy/c5acc91-IMG_20180830_190122.jpg
+   .. image:: img/parallaxy/133da54-IMG_20180830_190526.jpg
 
 #. Attach the Raspberry Pi board to the underside of the top plate with four ¼" 
    steel screws. It goes just above the large oval opening, mounted cross-wise,
    off-center to the left with its USB ports pointing to the right.
 
-   .. image:: img/926c424-IMG_20180830_191843.jpg
-   .. image:: img/ae4ebff-IMG_20180830_192253.jpg
-   .. image:: img/556225c-IMG_20180830_192301.jpg
+   .. image:: img/parallaxy/926c424-IMG_20180830_191843.jpg
+   .. image:: img/parallaxy/ae4ebff-IMG_20180830_192253.jpg
+   .. image:: img/parallaxy/556225c-IMG_20180830_192301.jpg
 
 #. Attach the camera to the top plate in one of the two larger round holes. Use
    the black nylon screw from underneath the plate, and the black Delrin washer
    on top of the plate. The washer helps the camera foot clear a screw head 
    holding the Raspberry Pi in place.
 
-   .. image:: img/619a1b2-IMG_20180830_192459.jpg
-   .. image:: img/80bf2c6-IMG_20180830_192514.jpg
-   .. image:: img/6d811f2-IMG_20180830_192734.jpg
+   .. image:: img/parallaxy/619a1b2-IMG_20180830_192459.jpg
+   .. image:: img/parallaxy/80bf2c6-IMG_20180830_192514.jpg
+   .. image:: img/parallaxy/6d811f2-IMG_20180830_192734.jpg
 
 #. Thread the camera through the large oval hole, with its cord resting in the 
    half-circle notch.
 
-   .. image:: img/5da4b2c-IMG_20180830_193419.jpg
+   .. image:: img/parallaxy/5da4b2c-IMG_20180830_193419.jpg
 
 #. Place the speaker so that it's cradled in the top plates large oval hole. Its 
    tiny two legs fit into the two notches. Secure the speaker in place with a
    large pair of zip ties laced through the slots centered above and below the 
    oval, and then laced through each other.
 
-   .. image:: img/1d74584-IMG_20180830_193438.jpg
-   .. image:: img/d03e910-IMG_20180830_193638.jpg
+   .. image:: img/parallaxy/1d74584-IMG_20180830_193438.jpg
+   .. image:: img/parallaxy/d03e910-IMG_20180830_193638.jpg
 
    .. tip:: If you have not flashed your Raspberry Pi yet, zip tie the speaker
     in place later. If you will be flashing the Raspberry Pi frequently, 
     consider using elastic instead of zip ties.
 
-   .. image:: img/264401c-IMG_20180901_171214.jpg
+   .. image:: img/parallaxy/264401c-IMG_20180901_171214.jpg
 
 #. Place the chassis upright on a table.
 
-   .. image:: img/0c5c73c-IMG_20180830_194256.jpg
+   .. image:: img/parallaxy/0c5c73c-IMG_20180830_194256.jpg
 
 #. Place the Activity Board WX on top of the four upright standoffs, with its 
    white breadboard facing away from the tail wheel and its mounting holes lined
@@ -203,7 +203,7 @@ Build Parallaxy
    * ``P14`` - Left servo yellow feedback wire to signal pin.
    * ``P15`` - Right servo yellow feedback wire to signal pin.
 
-   .. image:: img/7a3b45c-Parallaxy-Servo-Encoders.png
+   .. image:: img/parallaxy/7a3b45c-Parallaxy-Servo-Encoders.png
 
    .. tip:: Get a friend to help you with the next steps if you can.
 
@@ -220,28 +220,28 @@ Build Parallaxy
 #. Position the spacer and screw over the corresponding mounting hole in the
    Activity Board WX, thread it into the standoff beneath, and tighten in place.
 
-   .. image:: img/48356ff-IMG_20180830_195301.jpg
-   .. image:: img/3345452-IMG_20180830_194642.jpg
+   .. image:: img/parallaxy/48356ff-IMG_20180830_195301.jpg
+   .. image:: img/parallaxy/3345452-IMG_20180830_194642.jpg
 
 #. Repeat with the other three mounting holes until the tip plate is firmly
    attached to the bottom plate.
 
-   .. image:: img/bf55601-IMG_20180830_195057.jpg
+   .. image:: img/parallaxy/bf55601-IMG_20180830_195057.jpg
 
    .. tip:: If you have not flashed your Raspberry Pi yet, or expect to be doing
     so frequently, leave out the rear standoff to the left of the tail wheel. 
     It will make accessing the HDMI port easier.
 
-    .. image:: img/0749edd-no-4th-standoff.jpg
+    .. image:: img/parallaxy/0749edd-no-4th-standoff.jpg
 
 #. Gently pull the servo's cables towards the left servo.
 
-   .. image:: img/067afae-IMG_20180830_195401.jpg
+   .. image:: img/parallaxy/067afae-IMG_20180830_195401.jpg
 
 #. Slide the battery brick underneath the Activity Board WX, so its power switch
    is towards the tail wheel.
 
-   .. image:: img/c0b53bb-IMG_20180830_195541.jpg
+   .. image:: img/parallaxy/c0b53bb-IMG_20180830_195541.jpg
 
 **ZOMG!1! You're done with the main assembly! Huzzah!**
 
@@ -254,12 +254,12 @@ Activity Board WX Double-Check
 * If you have not done so already, make sure the 3-position power switch on the 
   Activity Board WX is set to Position 0 (off).
 
-  .. image:: img/acb9fea-3-pos-switch-AB-photo.png
+  .. image:: img/parallaxy/acb9fea-3-pos-switch-AB-photo.png
 
 * If you have not done so already, make sure all Activity Board WX servo port 
   jumpers are set to ``5V`` and if not, move them.
 
-  .. image:: img/7380033-Parallaxy_servo_port_power.png
+  .. image:: img/parallaxy/7380033-Parallaxy_servo_port_power.png
 
 * If you have not done so already, make the following servo port connections.
     * ``P12`` - Left Servo 3-pin cable, white wire to signal pin
@@ -267,7 +267,7 @@ Activity Board WX Double-Check
     * ``P14`` - Left servo yellow feedback wire to signal pin
     * ``P15`` - Right servo yellow feedback wire to signal pin
 
-    .. image:: img/7a3b45c-Parallaxy-Servo-Encoders.png
+    .. image:: img/parallaxy/7a3b45c-Parallaxy-Servo-Encoders.png
 
 **Battery Brick connection for Activity Board WX Programming**
 
@@ -353,11 +353,11 @@ correctly performing the calibration maneuvers <https://youtu.be/BY1Yc8jvTWg>`_.
 * From the ROBOT block menu, place the ActivityBot calibrate block into the 
   workspace, and choose ActivityBot 360 (Parallaxy) from the drop-down menu.
 
-  .. image:: img/ca97abc-Parallaxy-calibrate.png
+  .. image:: img/parallaxy/ca97abc-Parallaxy-calibrate.png
 
 * Click the Load and Run button.
 
-  .. image:: img/969d215-Parallaxy-save-to-EEPROM.png
+  .. image:: img/parallaxy/969d215-Parallaxy-save-to-EEPROM.png
 
   When the program is finished loading, the ``P26`` and ``P27`` lights will turn 
   on, turn off the robots power (slide the switch to 0).
@@ -386,7 +386,7 @@ until it is calibrated AND passes this test!
 * Replace the Calibrate block with the Display calibration block. Set its 
   drop-down menus to ActivityBot 360 (Parallaxy) and results as shown below.
 
-  .. image:: img/da7fd56-Parallaxy-calibration-results.png
+  .. image:: img/parallaxy/da7fd56-Parallaxy-calibration-results.png
 
 * Set the power switch back to 1, then click Load and run (save to EEPROM) 
   button again.

@@ -11,27 +11,27 @@ make a robot on the site, all you need to do is follow the on-screen prompts.
 
 #. If you are ready to install, press ``enter`` on your keyboard.
 
-.. image:: ./img/guided_install_1.png
+.. image:: ./img/guided_install/guided_install_1.png
 
 #. Enter the username you signed up for remo.tv with.
 
-.. image:: ./img/guided_install_2.png 
+.. image:: ./img/guided_install/guided_install_2.png 
 
 #. Enter your robot's API key. You can get this by clicking on your robot in the 
    channels list.
 
-.. image:: ./img/guided_install_3.png 
+.. image:: ./img/guided_install/guided_install_3.png 
 
 #. Select your robot type.
 
     .. attention:: You need to select your choice with ``space`` before pressing
         ``enter``.
 
-.. image:: ./img/guided_install_4.png 
+.. image:: ./img/guided_install/guided_install_4.png 
 
 #. Installation is now complete. It's safe to reboot your robot; or you can run
    it manually by running ::
 
     cd ~/remotv && python controller.py 
 
-.. image:: ./img/guided_install_5.png 
+.. image:: ./img/guided_install/guided_install_5.png 
