@@ -7,19 +7,31 @@
 Welcome to Remo's documentation!
 ================================
 
-Controller
-----------
 .. toctree::
-   
-   controller/getting_started.rst
-   controller/installation.rst
-   controller/guided_installation.rst
-   controller/contributing.rst
-   controller/configuration.rst
-   controller/migrating.rst
-   controller/troubleshooting.rst
-   controller/extending.rst
-   controller/parallaxy.rst
-   controller/hardware/index.rst
-   controller/tts/index.rst
+   :maxdepth: 2
+   :caption: Controller
+   :numbered:
 
+   controller/getting_started
+   controller/migrating
+   controller/guided_installation
+   controller/installation 
+   controller/configuration
+   controller/troubleshooting
+   controller/extending
+   controller/contributing
+   controller/parallaxy
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Controller - Hardware
+   :glob:
+
+   controller/hardware/*
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Controller - TTS
+   :glob:
+
+   controller/tts/*
