@@ -9,7 +9,7 @@ Configuring the Controller
 | Variable         | Default Value      | Description                       |
 +==================+====================+===================================+
 |``owner``         |``YourRemoUsername``|The username you have registered on|
-|                  |                    | remo.tv                           |
+|                  |                    |remo.tv                            |
 +------------------+--------------------+-----------------------------------+
 |``robot_key``     |``YourRobotAPIKey`` |The API key for your robot that you|
 |                  |                    |made on the site.                  |
