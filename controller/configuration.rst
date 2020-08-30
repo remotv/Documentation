@@ -45,7 +45,7 @@ Configuring the Controller
     * :doc:`l298n <./hardware/l298n>`
     * :doc:`maestro-serv <./hardware/maestro-serv>`
     * :doc:`max7219 <./hardware/max7219>`
-    * :doc:`motor_hat <./hardware/motor_hat>`
+    * :doc:`motor_hat <./hardware/adafruit_motor_hat>`
     * :doc:`motozero <./hardware/motozero>`
     * :doc:`mqtt_pub <./hardware/mqtt_pub>`
     * none
