@@ -127,7 +127,7 @@ Build Parallaxy
 #. Slide the 'L' bracket towards the tail wheel until its bottom holes line up
    with a slot in the bottom plate, then Tighten the Nylon screw.
 
-#. Insert a 3/8" steel screw from underneath the bottom plate, up through a 
+#. Insert a ⅜" steel screw from underneath the bottom plate, up through a 
    slot, and through the outer hole in the 'L' bracket, and secure in place with
    a Nylon core lock-nut (Don't go from the top down, because a projecting screw
    might get caught on something).
@@ -143,13 +143,13 @@ Build Parallaxy
    .. image:: img/a2e32db-IMG_20180830_190607.jpg
    .. image:: img/84bb660-IMG_20180830_191601.jpg
 
-#. Attach four 5/8" threaded standoffs to the top of the Raspberry Pi board
-   using 1/4" steel screws.
+#. Attach four ⅝" threaded standoffs to the top of the Raspberry Pi board
+   using ¼" steel screws.
 
    .. image:: img/c5acc91-IMG_20180830_190122.jpg
    .. image:: img/133da54-IMG_20180830_190526.jpg
 
-#. Attach the Raspberry Pi board to the underside of the top plate with four 1/4" 
+#. Attach the Raspberry Pi board to the underside of the top plate with four ¼" 
    steel screws. It goes just above the large oval opening, mounted cross-wise,
    off-center to the left with its USB ports pointing to the right.
 
@@ -212,10 +212,10 @@ Build Parallaxy
 #. Hold the top plate cover over the chassis with the camera facing away from
    the tail wheel. 
 
-#. Drop a 1 3/4" screw through the top plate in one of the remaining mounting 
+#. Drop a 1 ¾" screw through the top plate in one of the remaining mounting 
    holes.
 
-#. Slip a 1 1/4" spacer over the screw.
+#. Slip a 1 ¼" spacer over the screw.
 
 #. Position the spacer and screw over the corresponding mounting hole in the
    Activity Board WX, thread it into the standoff beneath, and tighten in place.
