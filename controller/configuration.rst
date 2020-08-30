@@ -43,16 +43,15 @@ Configuring the Controller
     * :doc:`gopigo2 <./hardware/gopigo2>`
     * :doc:`gopigo3 <./hardware/gopigo3>`
     * :doc:`l298n <./hardware/l298n>`
-    * :doc:`maestro-serv <./hardware/maestro-serv>`
+    * :doc:`maestro-serv <./hardware/pololu_maestro-serv>`
     * :doc:`max7219 <./hardware/max7219>`
     * :doc:`motor_hat <./hardware/adafruit_motor_hat>`
     * :doc:`motozero <./hardware/motozero>`
     * :doc:`mqtt_pub <./hardware/mqtt_pub>`
     * none
     * :doc:`owi_arm <./hardware/owi_arm>`
-    * :doc:`pololu <./hardware/pololu>`
+    * :doc:`pololu <./hardware/pololu_drv8835>`
     * :doc:`serial_board <./hardware/serial_board>`
-    * :doc:`telly <./hardware/telly>`
     * :doc:`thunderborg <./hardware/thunderborg>`
 
 ``[camera]``
