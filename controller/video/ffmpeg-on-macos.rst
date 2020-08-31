@@ -7,8 +7,8 @@ system.
 
 Installation
 ============
-Homebrew
---------
+Homebrew Package Manager
+------------------------
 Installing FFMPEG via `homebrew <https://brew.sh>`_ is the easiest way if you 
 have administrator access. 
 #. Install Homebrew 
@@ -29,7 +29,7 @@ have administrator access.
 Changes to `controller.conf`
 ============================
 
-.. code-block:: python
+.. code-block:: python3
 
     [camera]
     type = ffmpeg
