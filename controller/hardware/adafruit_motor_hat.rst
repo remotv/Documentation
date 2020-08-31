@@ -44,17 +44,21 @@ Assembly
 Installing the software
 -----------------------
 Run the following commands to install the correct library. Do NOT use the
-installation instructions from the Adafruit site for the circuit city libraries. ::
+installation instructions from the Adafruit site for the circuit city libraries.
 
-    cd /usr/local/src && sudo git clone https://github.com/adafruit/Adafruit-Motor-HAT-Python-Library.git
-    cd /usr/local/src/Adafruit-Motor-HAT-Python-Library && sudo python setup.py install
+.. code-block:: console
+
+    pi@raspberry:~$ cd /usr/local/src && sudo git clone https://github.com/adafruit/Adafruit-Motor-HAT-Python-Library.git
+    pi@raspberry:/usr/local/src$ cd /usr/local/src/Adafruit-Motor-HAT-Python-Library && sudo python setup.py install
 
 Enable I2C
 ----------
 The Adafruit DC and Stepper Motor Pi HAT kit uses I2C to communicate with your 
-Raspberry Pi. ::
+Raspberry Pi. 
 
-    sudo raspi-config
+.. code-block:: console
+
+    pi@raspberry:~$ sudo raspi-config
     Interfacing Options -> I2C -> Enable
 
 Configuration Options

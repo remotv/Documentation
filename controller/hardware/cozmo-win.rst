@@ -3,24 +3,26 @@ Anki Cozmo on Windows
 =====================
 
 .. attention:: If you are looking for how to set up Cozm on Linux or MacOS, you 
-    can find those instructions :doc:`here <./cozmo.rst>`.
+    can find those instructions :doc:`here <./cozmo>`.
 
 Pre-Setup
 ---------
-#. `Download <https://www.python.org/downloads/windows>`_ and setup the latest 
-   version of ``python3`` for Windows.
+#. Download and setup the latest version of 
+   `python3 <https://www.python.org/downloads/windows>`_ for Windows.
 
-#. `Download <https://www.ffmpeg.org/download.html#build-windows>`_ the latest 
-   version of ``ffmpeg`` for Windows. Click the Windows icon under "more
-   download options", then click the Windows build link. Then click to select
-   32/64 bit and click "download build".
+#. Download the latest version of 
+   `ffmpeg  <https://www.ffmpeg.org/download.html#build-windows>`_ for Windows. 
+   Click the Windows icon under "more download options", then click the Windows 
+   build link. Then click to select 32/64 bit and click "download build".
 
-#. Unzip the files to ``C:\\ffmpeg`` so the ``ffmpeg.exe`` file is located at 
-   ``C:\\ffmpeg\bin\ffmpeg.exe``.
+#. Unzip the files to ``C:\ffmpeg`` so the ``ffmpeg.exe`` file is located at 
+   ``C:\ffmpeg\bin\ffmpeg.exe``.
 
-#. Install ``SocketIO-client`` for Python3. ::
+#. Install ``SocketIO-client`` for Python3. 
 
-        pip install socketIO-client configparser
+.. code-block:: doscon
+    
+    C:\Users\you> pip install socketIO-client configparser
 
 Setup Instructions
 ------------------
@@ -103,15 +105,19 @@ robot page.
 
 .. note:: To stream audio you will need to have a microphone or webcam with
     microphone attached to your computer. First you will need to determine the
-    device name for your microphone. ::
+    device name for your microphone. 
 
-        c:\ffmpeg\bin\ffmpeg.exe -list_devices true -f dshow -i dummy
+    .. code-block:: doscon
+
+        C:\Users\you> C:\ffmpeg\bin\ffmpeg.exe -list_devices true -f dshow -i dummy
 
     This will list the available devices. The device name is contained between
     "" like so, "Microphone (2- Logitech G522 Gaming Headset)".
 
     To stream audio, you will need a second instance of the controller with a 
-    separate conf file with the following changes ::
+    separate conf file with the following changes 
+
+    .. code-block:: python3
 
         [robot]
         type=none
