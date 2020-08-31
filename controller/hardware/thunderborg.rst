@@ -29,14 +29,18 @@ Library Installation
 The controller needs a special file to drive the ThunderBorg module. It's not 
 the most convenient to download, but it's what we have to work with.
 
-#. Download & extract the example zip file that has the file we need. ::
+#. Download & extract the example zip file that has the file we need. 
+
+   .. code-block:: console
     
-    wget -O ~/examples.zip http://www.piborg.org/downloads/thunderborg/examples.zip
-    unzip ~/examples.zip 
+    pi@raspberry:~$ wget -O examples.zip http://www.piborg.org/downloads/thunderborg/examples.zip
+    pi@raspberry:~$ unzip examples.zip 
 
-#. Copy this single file we need to the ``hardware`` directory. ::
+#. Copy this single file we need to the ``hardware`` directory. 
 
-    cp ~/examples/ThunderBorg.py ~/remotv/hardware/ThunderBorgLib.py 
+   .. code-block:: console
+
+    pi@raspberry:~$ cp examples/ThunderBorg.py remotv/hardware/ThunderBorgLib.py 
 
 The files you got from the internet can now be deleted if you so choose.
 

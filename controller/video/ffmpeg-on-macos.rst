@@ -11,15 +11,19 @@ Homebrew
 --------
 Installing FFMPEG via `homebrew <https://brew.sh>`_ is the easiest way if you 
 have administrator access. 
-#. Install Homebrew ::
+#. Install Homebrew 
 
-        /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   .. code-block:: console
+
+        you@yourMac:~$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 .. note:: You may need to reboot after installation finishes.
 
-#. Install FFMPEG ::
+#. Install FFMPEG 
 
-        brew install ffmpeg
+   .. code-block:: console
+
+        you@yourMac:~$ brew install ffmpeg
 
 
 Changes to `controller.conf`
@@ -38,14 +42,16 @@ Changes to `controller.conf`
     video_input_format = avfoundation
 
 
-Your device id's can be gotten from running ::
+Your device id's can be gotten from running  
 
-    ffmpeg -f avfoundation -list_devices true -i ""
+.. code-block:: console
+
+    you@yourMac:~$ ffmpeg -f avfoundation -list_devices true -i ""
 
 
 You'll get an output similar to
 
-.. code-block:: bash
+.. code-block:: console
 
     [AVFoundation input device @ 0x7ff8e171e580] AVFoundation video devices:
     [AVFoundation input device @ 0x7ff8e171e580] [0] FaceTime HD Camera (Built-in)

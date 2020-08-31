@@ -46,6 +46,7 @@ paho MQTT can be found `here <https://pypi.org/project/paho-mqtt/>`_.
 In addition, to use the mqtt capabilities, a MQTT broker must be available to be 
 connected and running. The Mosquitto project has a Broker as well as a command 
 line publish and subscribe clients. Information on Mosquitto can be found 
-`here <https://mosquitto.org/>`_. 
+here: https://mosquitto.org/
+
 Information on installing a Mosquitto Broker on a Raspberry Pi can be found 
-`here <https://www.switchdoc.com/2018/02/tutorial-installing-and-testing-mosquitto-mqtt-on-raspberry-pi/>`_.
+here: https://www.switchdoc.com/2018/02/tutorial-installing-and-testing-mosquitto-mqtt-on-raspberry-pi/

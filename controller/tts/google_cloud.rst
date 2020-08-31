@@ -63,9 +63,9 @@ your robot.
 Install the client library
 --------------------------
 
-.. code-block:: bash
+.. code-block:: console
 
-    python -m pip Install --upgrade google-cloud-texttospeech
+    pi@raspberry:~$ python -m pip Install --upgrade google-cloud-texttospeech
 
 Using it with the robot
 -----------------------

@@ -9,11 +9,11 @@ installation script from Dexter. Also, ``PYTHONPATH`` needs to be set to
 
 Refer to this: https://github.com/DexterInd/GoPiGo3
 
-.. code-block:: bash
+.. code-block:: console
 
-    sudo git clone https://www.github.com/DexterInd/GoPiGo3.git /home/pi/Dexter/GoPiGo3
-    sudo bash /home/pi/GoPiGo3/Install/install.sh
-    sudo reboot
+    pi@raspberry:~$ sudo git clone https://www.github.com/DexterInd/GoPiGo3.git /home/pi/Dexter/GoPiGo3
+    pi@raspberry:~$ sudo bash /home/pi/GoPiGo3/Install/install.sh
+    pi@raspberry:~$ sudo reboot
 
 Configuration Options
 =====================
