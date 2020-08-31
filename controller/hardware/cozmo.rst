@@ -7,9 +7,11 @@ Anki Cozmo on MacOS and Linux
 
 Pre-Setup
 ---------
-Install ``socketIO-client`` for ``python3`` ::
+Install ``socketIO-client`` for ``python3`` 
 
-    python3 -m pip install socketIO-client configparser
+.. code-block:: console
+
+    pi@raspberry:~$ python3 -m pip install socketIO-client configparser
 
 Setup Instructions
 ------------------
@@ -29,22 +31,28 @@ Install FFMPEG
 FFMPEG should already be installed on Linux if you've followed the base 
 installation instructions.
 
-**MacOS:** ::
+**MacOS:** 
 
-    brew install ffmpeg
+.. code-block:: console
+
+    you@yourMac:~$ brew install ffmpeg
 
 Starting Cozmo 
 --------------
 
 #. Using the Cozmo app, enter SDK mode and connect your mobile device to the
    host machine.
-#. Execute the Remo controller using: ::
+#. Execute the Remo controller using: 
 
-    cd ~/remotv
-    python3 controller.py 
+   .. code-block:: console
+
+    pi@raspberry:~$ cd ~/remotv
+    pi@raspberry:~/remotv$ python3 controller.py 
 
 #. For audio streaming, you need a second instance of the controller with a 
-   separate conf file with the following changes: ::
+   separate conf file with the following changes: 
+
+   .. code-block:: python3
 
     [robot]
     type=none
@@ -55,17 +63,21 @@ Starting Cozmo
     [tts]
     type=none
 
-#. All other changes remain the same. To execute, run: ::
+#. All other changes remain the same. To execute, run: 
 
-    cd /path/to/second/controller 
-    python3 controller.py
+   .. code-block:: console
+
+    pi@raspberry:~$ cd /path/to/second/controller 
+    pi@raspberry:/path/to/second/controller$ python3 controller.py
 
 .. tip:: If you don't want to, or cannot run another terminal window, ``screen``
     is a helpful tool for running commands concurrently. 
 
-    Linux: ::
+    Linux: 
 
-        sudo apt install screen
+    .. code-block:: console
+
+        you@yourComputer:~$ sudo apt install screen
 
     ``screen`` is already installed on MacOS.
 
@@ -141,7 +153,9 @@ robot page.
     alsa input. If you want to stream audio from your mac, use
     `` -f avfoundation -i ":0"`` in place of ``-f alsa -ar 44100 -ac %d 0i hw:%d``.
 
-    For example: ::
+    For example: 
+
+    .. code-block:: python3
     
         audioCommandLine = '/usr/local/bin/ffmpeg -f avfoundation -i ":0" -f mpegts -codec:a mp2 -b:a 128k -muxdelay 0.001 http://remo.tv:1567/transmit?name=%s-audio' % (channelID)
 

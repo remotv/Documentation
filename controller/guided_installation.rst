@@ -5,9 +5,11 @@ Guided Installation
 We made an installer to get you up and running as quickly as we can! After you 
 make a robot on the site, all you need to do is follow the on-screen prompts.
 
-#. Copy and paste this command into a terminal. This is best handled via SSH. ::
+#. Copy and paste this command into a terminal. This is best handled via SSH. 
 
-    wget -O - https://raw.githubusercontent.com/remotv/controller/master/scripts/install.sh | bash -
+.. code-block:: console
+
+    pi@raspberry:~$ wget -O - https://raw.githubusercontent.com/remotv/controller/master/scripts/install.sh | bash -
 
 #. If you are ready to install, press ``enter`` on your keyboard.
 
@@ -30,8 +32,10 @@ make a robot on the site, all you need to do is follow the on-screen prompts.
 .. image:: ./img/guided_install/guided_install_4.png 
 
 #. Installation is now complete. It's safe to reboot your robot; or you can run
-   it manually by running ::
+   it manually by running 
 
-    cd ~/remotv && python controller.py 
+   .. code-block:: console
+    
+    pi@raspberry:~$ cd ~/remotv && python controller.py 
 
 .. image:: ./img/guided_install/guided_install_5.png 

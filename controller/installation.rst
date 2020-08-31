@@ -2,15 +2,18 @@
 Installation
 ============
 
-.. attention:: If you're migrating your robot from Let's Robot, there are a few
+.. attention:: 
+    If you're migrating your robot from Let's Robot, there are a few
     key things this controller does differently. You can read more about it 
     :doc:`here <./migrating>`.
 
-.. tip:: If this is your first time working with a Raspberry Pi or Linux,
+.. tip:: 
+    If this is your first time working with a Raspberry Pi or Linux,
     we recommend following our :doc:`initialization tutorial <./getting_started>`
     to get started.
 
-.. tip:: If doing things manually isn't your style, we made an :doc:`optional 
+.. tip:: 
+    If doing things manually isn't your style, we made an :doc:`optional 
     guided installation script <./guided_installation>` that handles mostly
     everything for you.
 
@@ -21,27 +24,37 @@ usually fix it!
 
 #. Install the required software libraries and tools. Make sure you don't get
    any errors in the console. If you have an issue, you can run this line again,
-   and that will usually fix it! ::
+   and that will usually fix it!
 
-    sudo apt update
-    sudo apt upgrade -y
-    sudo apt install ffmpeg python-serial python-dev libgnutls28-dev espeak python-smbus python-pip git 
+   .. code-block:: console
 
-#. Download the remotv controller scripts from GitHub. ::
+    pi@raspberry:~$ sudo apt update
+    pi@raspberry:~$ sudo apt upgrade -y
+    pi@raspberry:~$ sudo apt install ffmpeg python-serial python-dev libgnutls28-dev espeak python-smbus python-pip git 
 
-    git clone https://github.com/remotv/controller.git ~/remotv
+#. Download the remotv controller scripts from GitHub. 
+   
+   .. code-block:: console
 
-#. Install python requirements. ::
+    pi@raspberry:~$ git clone https://github.com/remotv/controller.git ~/remotv
 
-    sudo python -m pip install -r ~/remotv/requirements.txt
+#. Install python requirements. 
 
-#. Open the new ``remotv`` directory. ::
+   .. code-block:: console
 
-    cd remotv 
+    pi@raspberry:~$ sudo python -m pip install -r ~/remotv/requirements.txt
 
-#. Copy ``controller.sample.conf`` to ``controller.conf``. ::
+#. Open the new ``remotv`` directory.
 
-    cp controller.sample.conf controller.conf 
+   .. code-block:: console
+
+    pi@raspberry:~$ cd remotv 
+
+#. Copy ``controller.sample.conf`` to ``controller.conf``.
+
+   .. code-block:: console
+
+    pi@raspberry:~/remotv$ cp controller.sample.conf controller.conf 
 
 Configure the Controller
 ------------------------
@@ -51,22 +64,31 @@ controller for your robot.
 Getting your robot to start the controller when it boots
 --------------------------------------------------------
 
-#. Copy the ``start_robot`` script to your home directory. ::
+#. Copy the ``start_robot`` script to your home directory.
 
-    cp ~/remotv/scripts/start_robot ~
+   .. code-block:: console
 
-#. Add the startup script to ``crontab``. ::
+    pi@raspberry:~/remotv$ cp scripts/start_robot ~
 
-    crontab -e 
+#. Add the startup script to ``crontab``.
+
+   .. code-block:: console
+
+    pi@raspberry:~$ crontab -e 
 
    .. tip:: If you accidentally use the wrong editor, run:
         ``EDITOR=nano crontab -e``
 
-#. Insert the following text at the bottom. ::
+#. Insert the following text at the bottom. 
+
+   .. code-block:: bash
 
     @reboot /bin/bash /home/pi/start_robot
 
-   Example: ::
+   Example: 
+
+   .. code-block:: Bash
+    :linenos:
 
     # Edit this file to introduce tasks to be run by cron.
     #
@@ -94,7 +116,9 @@ Getting your robot to start the controller when it boots
 
     @reboot /bin/bash /home/pi/start_robot
 
-#. Now just plug in your camera and speaker and reboot. ::
+#. Now just plug in your camera and speaker and reboot. 
 
-    sudo reboot
+   .. code-block:: console
+
+    pi@raspberry:~$ sudo reboot
     

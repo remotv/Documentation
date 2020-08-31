@@ -14,6 +14,7 @@ for this hardware type in the configuration file. This file needs to contain
 two functions, as shown in this example.
 
 .. code-block:: python
+    :linenos:
 
     def setup(robot_config):
         # your hardware setup code goes here
@@ -36,8 +37,8 @@ two functions, as shown in this example.
             return
         return
 
-``setup()`` Function 
----------------------
+Hardware ``setup()`` Function 
+-----------------------------
 The ``setup()`` function is passed the ConfigParser object for the 
 controller.conf file. You can create a new section for your hardware in the 
 controller.conf file, and store your configuration variables there. Variables in
@@ -53,6 +54,7 @@ The ``move()`` function is passed the object containing the command for the robo
 received from the server.
 
 .. code-block:: json
+    :linenos:
 
     {
     "e": "BUTTON_COMMAND",
@@ -99,6 +101,7 @@ type in the configuration file. This needs to contain two functions, as shown
 in this example.
 
 .. code-block:: python
+    :linenos:
 
     def setup(robot_config):
         return
@@ -107,8 +110,8 @@ in this example.
         message = args[0]
         return
 
-``setup()`` Function
---------------------
+TTS ``setup()`` Function
+-------------------------
 The ``setup()`` function is passed the ConfigParser object for the controller.conf 
 file. You can create a new section for your tts in the conf file, and store
 configuration variables there. Variables in the configuration can be accessed
@@ -125,6 +128,7 @@ if it exists, will be the chat message object that was sent to the robot from
 the server. It looks like this.
 
 .. code-block:: json
+    :linenos:
 
     {
         "e": "MESSAGE_RECIEVED",
@@ -162,6 +166,7 @@ outlined for new hardware above, but in order to extend functionality, there is
 a slight difference.
 
 .. code-block:: python
+    :linenos:
 
     import mod_utils
     module = None
@@ -210,6 +215,7 @@ The ``tts_custom.py`` file needs to have the same two functions, as outlined for
 new tts above, but in order to extend functionality there is a slight difference.
 
 .. code-block:: python
+    :linenos:
 
     import mod_utils
     module = None

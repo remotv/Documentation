@@ -24,13 +24,17 @@ Library Installation
 --------------------
 You'll need to install the ``Adafruit_PCA9685`` Python module. This may also 
 require enabling I2C. If you are using a Raspberry Pi, you can enable I2C in the
-``Interfacing Options`` menu of ``raspi-config``. ::
+``Interfacing Options`` menu of ``raspi-config``. 
 
-    sudo raspi-config
+.. code-block:: console
 
-Once that's done, from your command line run the following command. ::
+    pi@raspberry:~$ sudo raspi-config
 
-    sudo python -m pip install adafruit-pca9685 
+Once that's done, from your command line run the following command.
+
+.. code-block:: console
+
+    pi@raspberry:~$ sudo python -m pip install adafruit-pca9685 
 
 Configuration Options
 ---------------------
