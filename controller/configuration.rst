@@ -121,6 +121,6 @@ Configuring the Controller
     * :doc:`espeak <./tts/espeak>`
     * :doc:`festival <./tts/festival>`
     * :doc:`pico <./tts/pico>`
-    * :doc:`polly <./tts/polly>`
+    * :doc:`polly <./tts/amazon_polly>`
     * :doc:`cozmo_tts <./tts/cozmo_tts>`
     * :doc:`google_cloud <./tts/google_cloud>`
