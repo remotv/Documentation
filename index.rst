@@ -35,3 +35,10 @@ Welcome to Remo's documentation!
    :glob:
 
    controller/tts/*
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Controller - Video
+   :glob:
+
+   controller/video/*
