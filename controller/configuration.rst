@@ -122,5 +122,5 @@ Configuring the Controller
     * :doc:`festival <./tts/festival>`
     * :doc:`pico <./tts/pico>`
     * :doc:`polly <./tts/amazon_polly>`
-    * :doc:`cozmo_tts <./tts/cozmo_tts>`
+    * cozmo_tts
     * :doc:`google_cloud <./tts/google_cloud>`
