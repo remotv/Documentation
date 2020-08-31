@@ -65,13 +65,13 @@ Set up your Raspberry Pi using ``raspi-config``
    default will allow anyone on the same network to gain direct access to your
    robot.
 
-   (raspi-config picture placeholder)
+   .. image:: img/getting_started/raspi_config_1.png
 
 #. Network options. 
     #. Add your WiFi name and password. If your WiFi fails to connect, try these
        `instructions <https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md>`_.
 
-    (raspi-config wifi picture placeholder)
+    .. image:: img/getting_started/raspi_config_2.png
 
 #. Interfacing Options 
     #. Enable SSH. You will want to be able to connect to your robot using your
@@ -82,7 +82,7 @@ Set up your Raspberry Pi using ``raspi-config``
     #. If you plan on using the Raspberry Pi Camera module, enable that here as
        well.
 
-    (raspi-config interface picture placeholder)
+    .. image:: img/getting_started/raspi_config_3.png
 
 #. Exit ``raspi-config``. Use your right arrow key to move and select 
    ``<Back>``, hit enter. Then do the same to select the ``<Finish>`` button.
