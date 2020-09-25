@@ -42,3 +42,10 @@ Welcome to Remo's documentation!
    :glob:
 
    controller/video/*
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Client
+   :glob:
+
+   client/*
