@@ -1,0 +1,35 @@
+@import 'theme.css';
+
+body {
+  color: #FFF;
+}
+
+.wy-nav-content-wrap {
+  background: #282c34;
+}
+
+.wy-nav-content {
+  background: #191924;
+}
+
+a {
+  color: #6aabff;
+}
+
+a:visited {
+  color: #6aabff;
+}
+
+a:hover {
+  color: #b073d3;
+}
+
+.rst-content code {
+  background: rgba(255,255,255,0.25);;
+  border: none;
+  
+}
+
+.rst-content code.literal, .rst-content tt.literal {
+  color: #FFF;
+}
