@@ -16,7 +16,7 @@
   --content-wrap-background-color: #202326;
   --content-background-color: #2e3236;
   /* Decrease the logo opacity when using the dark theme to be less distracting */
-  --logo-opacity: 0.85;
+  --logo-opacity: 1.00;
   --navbar-background-color: #25282b;
   --navbar-background-color-hover: #333639;
   --navbar-background-color-active: #111417;
@@ -118,6 +118,8 @@ legend,
     "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+/*
+
 h1,
 h2,
 h3,
@@ -127,12 +129,13 @@ h6,
 legend,
 .rst-content .toctree-wrapper p.caption {
   /* Use a lighter font for headers (Medium instead of Bold) */
-  font-weight: 500;
+/*  font-weight: 500;
 }
+
 
 .rst-content div.figure p.caption {
   /* Tweak caption styling to be closer to typical captions */
-  text-align: center;
+/*  text-align: center;
   margin-top: 8px;
   opacity: 0.75;
 }
@@ -155,8 +158,9 @@ article ol,
 .rst-content .toctree-wrapper ul,
 .rst-content .section ol {
   /* Increase the line height slightly to account for the different font */
-  line-height: 25px;
+/*  line-height: 25px;
 }
+*/
 
 body,
 .rst-content table.docutils thead {
@@ -215,7 +219,7 @@ hr,
   border-color: var(--admonition-attention-title-background-color);
   color: var(--admonition-attention-color);
 }
-.rst-content dl:not(.docutils).class dt,
+/* .rst-content dl:not(.docutils).class dt,
 .rst-content dl:not(.docutils).function dt,
 .rst-content dl:not(.docutils).method dt,
 .rst-content dl:not(.docutils).attribute dt {
@@ -229,40 +233,41 @@ hr,
   font-weight: normal;
   margin-bottom: 16px;
   padding: 6px 8px;
-}
+} */
 .rst-content dl:not(.docutils) tt.descclassname,
 .rst-content dl:not(.docutils) code.descclassname {
   color: var(--highlight-type2-color);
-  font-weight: normal;
+  /* font-weight: normal; */
 }
 .rst-content dl:not(.docutils) tt.descname,
 .rst-content dl:not(.docutils) code.descname {
   color: var(--highlight-function-color);
-  font-weight: normal;
+  /* font-weight: normal; */
 }
 .rst-content dl:not(.docutils) .sig-paren,
 .rst-content dl:not(.docutils) .optional {
   color: var(--highlight-operator-color);
-  font-weight: normal;
-  padding: 0 2px;
+  /* font-weight: normal; */
+  /* padding: 0 2px; */
 }
-.rst-content dl:not(.docutils) .optional {
+
+/*.rst-content dl:not(.docutils) .optional {
   font-style: italic;
-}
+} */
 .rst-content dl:not(.docutils) .sig-param,
 .rst-content dl:not(.docutils).class dt > em,
 .rst-content dl:not(.docutils).function dt > em,
 .rst-content dl:not(.docutils).method dt > em {
   color: var(--code-literal-color);
-  font-style: normal;
-  padding: 0 4px;
+  /* font-style: normal;
+  padding: 0 4px; */
 }
 .rst-content dl:not(.docutils) .sig-param,
 .rst-content dl:not(.docutils).class dt > .optional ~ em,
 .rst-content dl:not(.docutils).function dt > .optional ~ em,
 .rst-content dl:not(.docutils).method dt > .optional ~ em {
   color: var(--highlight-number-color);
-  font-style: italic;
+  /* font-style: italic; */
 }
 .rst-content dl:not(.docutils).class dt > em.property {
   color: var(--highlight-keyword-color);
@@ -285,23 +290,23 @@ footer,
 /* Search popup body */
 .wy-body-for-nav .search__outer {
   background-color: var(--content-background-color);
-  border: 2px solid var(--content-background-color);
+  /* border: 2px solid var(--content-background-color); */
 }
 .wy-body-for-nav .search__cross svg {
   fill: var(--body-color);
 }
 
 .wy-body-for-nav .search__outer::-webkit-scrollbar-track {
-  border-radius: 10px;
+  /* border-radius: 10px; */
   background-color: var(--content-background-color);
 }
 .wy-body-for-nav .search__outer::-webkit-scrollbar {
-  width: 7px;
-  height: 7px;
+  /* width: 7px;
+  height: 7px; */
   background-color: var(--content-background-color);
 }
 .wy-body-for-nav .search__outer::-webkit-scrollbar-thumb {
-  border-radius: 10px;
+  /* border-radius: 10px; */
   background-color: var(--hr-color);
 }
 
@@ -309,19 +314,19 @@ footer,
 .wy-body-for-nav .search__outer__input {
   background-color: var(--search-input-background-color);
   background-image: none;
-  border-radius: 50px;
-  border: 2px solid transparent;
+  /* border-radius: 50px;
+  border: 2px solid transparent; */
   color: var(--body-color);
-  height: 36px;
-  padding: 6px 12px;
+  /* height: 36px;
+  padding: 6px 12px; */
 }
 .wy-body-for-nav .search__outer__input:focus {
   border-color: var(--input-focus-border-color);
 }
-.wy-body-for-nav .search__outer .bar:after,
+/* .wy-body-for-nav .search__outer .bar:after,
 .wy-body-for-nav .search__outer .bar:before {
   display: none;
-}
+} */
 
 /* Search results item */
 .wy-body-for-nav .search__result__single {
@@ -330,9 +335,9 @@ footer,
 /* Search item title */
 .wy-body-for-nav .search__result__title {
   color: var(--link-color);
-  border-bottom: none;
+  /* border-bottom: none;
   font-size: 120%;
-  font-weight: 400;
+  font-weight: 400; */
 }
 
 /* Search item section */
@@ -342,8 +347,8 @@ footer,
 }
 .wy-body-for-nav .search__result__subheading {
   color: var(--body-color);
-  font-size: 100%;
-  font-weight: 400;
+  /* font-size: 100%;
+  font-weight: 400; */
 }
 .wy-body-for-nav .search__result__content {
   color: var(--footer-color);
@@ -353,9 +358,9 @@ footer,
 .wy-body-for-nav .search__outer .search__result__title span,
 .wy-body-for-nav .search__outer .search__result__content span {
   color: var(--search-match-color);
-  border-bottom: 1px solid var(--search-match-color);
+  /* border-bottom: 1px solid var(--search-match-color); */
   background-color: var(--search-match-background-color);
-  padding: 0 2px;
+  /* padding: 0 2px; */
 }
 .wy-body-for-nav .search__result__subheading span {
   border-bottom-color: var(--body-color);
@@ -372,7 +377,7 @@ footer,
   background-color: var(--search-credits-background-color);
   border-color: var(--search-credits-background-color);
   color: var(--search-credits-color);
-  padding: 4px 8px;
+  /* padding: 4px 8px; */
 }
 .wy-body-for-nav .rtd__search__credits a {
   color: var(--search-credits-link-color);
@@ -392,13 +397,7 @@ footer,
   background-color: var(--content-wrap-background-color);
 }
 
-@media only screen and (min-width: 769px) {
-  .wy-body-for-nav {
-    /* Center the page on wide displays for better readability */
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-}
+
 
 /* Table display tweaks */
 
@@ -617,7 +616,7 @@ code,
 }
 
 /* Keyboard shortcuts tweaks */
-kbd,
+/* kbd,
 .kbd {
   background-color: var(--kbd-background-color);
   border: 1px solid var(--kbd-outline-color);
@@ -629,7 +628,7 @@ kbd,
   line-height: 11px;
   padding: 4px 5px;
   vertical-align: middle;
-}
+} */
 
 /* Buttons */
 
@@ -667,20 +666,7 @@ kbd,
   position: fixed;
 }
 
-@media only screen and (min-width: 769px) {
-  /* Simulate a drop shadow that only affects the bottom edge */
-  /* This is used to indicate the search bar is fixed */
-  .wy-side-nav-search.fixed-and-scrolled::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    width: 300px;
-    height: 8px;
-    pointer-events: none;
-    background: linear-gradient(hsla(0, 0%, 0%, 0.2), transparent);
-  }
-}
+
 
 .wy-side-nav-search > a:hover,
 .wy-side-nav-search .wy-dropdown > a:hover {
