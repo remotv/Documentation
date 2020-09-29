@@ -1,5 +1,5 @@
 ===============================
-PiBord ThunderBorg Motor Driver
+PiBorg ThunderBorg Motor Driver
 ===============================
 
 .. image:: ../img/thunderborg/thunderborg.jpg

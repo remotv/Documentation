@@ -34,4 +34,4 @@ repository. Instead, you can follow these instructions:
    We'll discuss it and if we decide that it's something that would be beneficial,
    we'll merge it and your code will be part of everyone's robots!
 
-We also discuss our code often on Discord, so come check it out!
+We also discuss our code often on `Discord <https://discord.gg/q3Uvtn5>`_, so come check it out!
