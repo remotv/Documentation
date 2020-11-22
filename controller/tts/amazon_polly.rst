@@ -23,6 +23,15 @@ This is not a free service. It requires an Amazon AWS account.
 
 More information on pricing is available `here <https://aws.amazon.com/polly/pricing>`_.
 
+Installation
+=====================
+* Required packages:
+
+.. code-block:: console
+
+    pi@raspberry:~$ sudo apt-get install mpg123 
+    pi@raspberry:~$ pip install boto3
+
 Configuration Options
 =====================
 +-----------------+-------------+----------------------------------------------+
