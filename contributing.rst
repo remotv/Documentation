@@ -2,9 +2,19 @@
 Contributing
 ============
 
-Remo.TV is an open source project. That means that the code is available for free,
-and that anybody can contribute to it. We're always happy to have new contributors
-even if it's as simple as fixing a spelling error. 
+Remo.TV is an open source project. That means that the code is available for 
+free, and that anybody can contribute to it. We're always happy to have new 
+contributors even if it's as simple as fixing a spelling error. 
+
+We also discuss our code often on `Discord <https://discord.gg/q3Uvtn5>`_, so 
+come check it out!
+
+Robot Controller 
+================
+
+The robot controller code is written in Python. There's legacy support for 
+Python 2, but all new code is written for Python 3 as Python 2 is 
+`deprecated <https://www.python.org/doc/sunset-python-2/>`_. 
 
 Filing a bug report
 -------------------
@@ -17,8 +27,18 @@ Filing a Feature Suggestion
 Think we're missing something, let's talk about it! Official feature suggestions
 can also be sent on GitHub `here <https://github.com/remotv/controller/issues/new?template=feature_request.md>`_.
 
+Website Code 
+============
+
+The website itself is split into two GitHub repositories; the 
+`front end <https://github.com/remotv/remo-web-client>`_ and the 
+`back end <https://github.com/remotv/remo-platform-server>`_. Because of this,
+it's much easier for us to discuss issue reports and feature requests on
+Discord, linked above.
+
+
 Changing the code yourself
---------------------------
+==========================
 We welcome anybody who wants to contribute their own code to the controller. 
 For safety purposes, we don't allow people to push their code directly to the 
 repository. Instead, you can follow these instructions:
@@ -34,4 +54,12 @@ repository. Instead, you can follow these instructions:
    We'll discuss it and if we decide that it's something that would be beneficial,
    we'll merge it and your code will be part of everyone's robots!
 
-We also discuss our code often on `Discord <https://discord.gg/q3Uvtn5>`_, so come check it out!
+If you do choose to contribute, we ask that you follow conventional coding
+practices regarding variable naming, syntax structure, et. cetera. 
+
+The person who writes the technical documentation wishes to request that any
+code you add comes with the relevant in-code documentation 
+(`JSDoc <https://jsdoc.app>`_ for JavaScript, 
+`Javadoc <https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html>`_ 
+for Java/Kotlin, and `docstrings <https://www.python.org/dev/peps/pep-0257/>`_ 
+for Python). 

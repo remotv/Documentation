@@ -9,15 +9,21 @@ Welcome to Remo's documentation!
 
 .. toctree::
    :maxdepth: 2
+   :caption: Prologue
+   :glob:
+   
+   /*
+
+.. toctree::
+   :maxdepth: 2
    :caption: Controller
-   :numbered:
+   :glob:
 
    controller/getting_started
    controller/installation 
    controller/configuration
    controller/troubleshooting
    controller/extending
-   controller/contributing
    controller/parallaxy
 
 .. toctree::

@@ -16,7 +16,7 @@
   --content-wrap-background-color: #202326;
   --content-background-color: #2e3236;
   /* Decrease the logo opacity when using the dark theme to be less distracting */
-  --logo-opacity: 1.00;
+  --logo-opacity: 1;
   --navbar-background-color: #25282b;
   --navbar-background-color-hover: #333639;
   --navbar-background-color-active: #111417;
@@ -36,7 +36,6 @@
   --link-color-hover: #9df;
   --link-color-active: #6ad;
   --link-color-visited: #8cf;
-  --external-reference-icon: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEyIiB3aWR0aD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjOGNmIj48cGF0aCBkPSJtNy41IDcuMXYzLjRoLTZ2LTZoMy40Ii8+PHBhdGggZD0ibTUuNzY1IDFoNS4yMzV2NS4zOWwtMS41NzMgMS41NDctMS4zMS0xLjMxLTIuNzI0IDIuNzIzLTIuNjktMi42ODggMi44MS0yLjgwOC0xLjMxMy0xLjMxeiIvPjwvZz48L3N2Zz4K");
 
   --hr-color: #555;
   --table-row-odd-background-color: #3b3e41;
@@ -97,72 +96,6 @@
 }
 
 body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-input[type="text"],
-input[type="button"],
-input[type="reset"],
-input[type="submit"],
-textarea,
-legend,
-.btn,
-.rst-content .toctree-wrapper p.caption,
-.rst-versions {
-  /* Use a system font stack for better performance (no Web fonts required) */
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-/*
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-legend,
-.rst-content .toctree-wrapper p.caption {
-  /* Use a lighter font for headers (Medium instead of Bold) */
-/*  font-weight: 500;
-}
-
-
-.rst-content div.figure p.caption {
-  /* Tweak caption styling to be closer to typical captions */
-/*  text-align: center;
-  margin-top: 8px;
-  opacity: 0.75;
-}
-
-.rst-content div.figure.figure-w480 {
-  max-width: 480px;
-}
-
-.rst-content div.figure img {
-  border: 1px solid var(--body-color);
-}
-
-p,
-article ul,
-article ol,
-.wy-plain-list-disc,
-.wy-plain-list-decimal,
-.rst-content ol.arabic,
-.rst-content .section ul,
-.rst-content .toctree-wrapper ul,
-.rst-content .section ol {
-  /* Increase the line height slightly to account for the different font */
-/*  line-height: 25px;
-}
-*/
-
-body,
 .rst-content table.docutils thead {
   color: var(--body-color);
 }
@@ -192,14 +125,6 @@ a:visited {
 
 a.btn:hover {
   text-decoration: none;
-}
-
-/* Style external links differently to make them easier to distinguish from internal links. */
-.reference.external {
-  background-position: center right;
-  background-repeat: no-repeat;
-  background-image: var(--external-reference-icon);
-  padding-right: 13px;
 }
 
 hr,
@@ -397,8 +322,6 @@ footer,
   background-color: var(--content-wrap-background-color);
 }
 
-
-
 /* Table display tweaks */
 
 .rst-content table.docutils,
@@ -433,7 +356,6 @@ footer,
 code,
 .rst-content tt,
 .rst-content code {
-  font-size: 14px;
   background-color: var(--code-background-color);
   border: 1px solid var(--code-border-color);
 }
@@ -445,14 +367,6 @@ code,
 
 .rst-content div[class^="highlight"] {
   border-color: var(--code-border-color);
-}
-
-.rst-content pre.literal-block,
-.rst-content div[class^="highlight"] pre,
-.rst-content .linenodiv pre {
-  /* Increase the font size and line height in code blocks */
-  font-size: 14px;
-  line-height: 1.5;
 }
 
 /* Code tab display tweaks */
@@ -666,8 +580,6 @@ code,
   position: fixed;
 }
 
-
-
 .wy-side-nav-search > a:hover,
 .wy-side-nav-search .wy-dropdown > a:hover {
   background-color: var(--navbar-background-color-hover);
@@ -681,21 +593,14 @@ code,
 .wy-side-nav-search input[type="text"] {
   background-color: var(--input-background-color);
   color: var(--body-color);
-  /* Avoid reflowing when toggling the focus state */
-  border: 2px solid transparent;
-  box-shadow: none;
-  /* Make visual feedback instant */
-  transition: none;
-  font-size: 14px;
 }
 
 .wy-side-nav-search input[type="text"]:focus {
-  border: 2px solid var(--input-focus-border-color);
+  border-color: var(--input-focus-border-color);
 }
 
 .wy-side-nav-search input[type="text"]::placeholder {
   color: var(--body-color);
-  opacity: 0.55;
 }
 
 /* Navigation bar */
@@ -704,19 +609,11 @@ code,
   background-color: var(--navbar-background-color);
 }
 
-@media only screen and (min-width: 769px) {
-  .wy-nav-side {
-    /* Required to center the page on wide displays */
-    left: inherit;
-  }
-}
-
 .wy-menu-vertical header,
 .wy-menu-vertical p.caption {
   color: var(--navbar-heading-color);
 
   /* Improves the appearance of uppercase text */
-  letter-spacing: 0.75px;
 }
 
 /* Mobile navigation */
@@ -730,7 +627,6 @@ code,
 /* Version branch label below the logo */
 .wy-side-nav-search > div.version {
   color: var(--navbar-level-3-color);
-  opacity: 0.9;
 }
 
 /* First level of navigation items */
@@ -748,17 +644,11 @@ code,
   background-color: var(--navbar-background-color-active);
 }
 
-.wy-menu-vertical li.toctree-l1.current > a {
-  border: none;
-}
-
 .wy-side-nav-search,
 .wy-menu-vertical a,
 .wy-menu-vertical a span.toctree-expand,
 .wy-menu-vertical li.toctree-l2 a span.toctree-expand {
   color: var(--navbar-level-3-color);
-  opacity: 0.9;
-  margin-right: 8px;
 }
 
 .wy-side-nav-search,
@@ -766,7 +656,6 @@ code,
 .wy-menu-vertical a:hover span.toctree-expand,
 .wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {
   color: var(--navbar-level-2-color);
-  opacity: 1;
 }
 
 .wy-side-nav-search,
@@ -774,16 +663,9 @@ code,
 .wy-menu-vertical a:active span.toctree-expand,
 .wy-menu-vertical li.toctree-l2 a:active span.toctree-expand {
   color: var(--navbar-level-1-color);
-  opacity: 1;
 }
 
 /* Second (and higher) levels of navigation items */
-
-.wy-menu-vertical li.current a {
-  /* Make long words always display on a single line, keep wrapping for multiple words */
-  /* This fixes the class reference titles' display with very long class names */
-  display: flex;
-}
 
 .wy-menu-vertical li.current a,
 .wy-menu-vertical li.toctree-l2.current > a,
@@ -808,27 +690,10 @@ code,
   background-color: var(--navbar-current-background-color-active);
 }
 
-.wy-menu-vertical a {
-  /* This overrides 8px margin added in other multi-selector rules */
-  margin-right: 0;
-}
-
-/* Banner panel in sidebar */
-.wy-nav-side .ethical-rtd.fixed {
-  position: fixed;
-}
-
 /* Version selector (only visible on Read the Docs) */
 
 .rst-versions {
   background-color: var(--navbar-current-background-color);
-}
-
-@media only screen and (min-width: 769px) {
-  .rst-versions {
-    /* Required to center the page on wide displays */
-    left: inherit;
-  }
 }
 
 .rst-versions a,
@@ -840,10 +705,6 @@ code,
 
 .rst-versions .rst-other-versions small {
   color: var(--navbar-level-3-color);
-}
-
-.rst-versions .rst-other-versions dd a:hover {
-  text-decoration: underline;
 }
 
 .rst-versions .rst-other-versions {
@@ -860,38 +721,6 @@ code,
 
 .rst-versions .rst-current-version:active {
   background-color: var(--navbar-current-background-color-active);
-}
-
-/* Hide the obnoxious automatic highlight in search results */
-.rst-content .highlighted {
-  background-color: transparent;
-  font-weight: inherit;
-  padding: 0;
-}
-
-/* Allows the scrollbar to be shown in the sidebar */
-@media only screen and (min-width: 769px) {
-  .wy-side-scroll {
-    overflow: hidden;
-  }
-
-  .wy-nav-side .wy-side-scroll .ethical-rtd {
-    width: calc(300px - 1.25em);
-    padding: 0 0 0 1em;
-  }
-}
-.wy-menu.wy-menu-vertical {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-@media screen and (max-width: 768px) {
-  .wy-nav-side {
-    padding-bottom: 44px;
-  }
-  .wy-menu.wy-menu-vertical {
-    overflow-y: initial;
-    max-height: initial;
-  }
 }
 
 /* Scrollbar styling */
@@ -917,6 +746,5 @@ code,
 }
 
 .highlight .gp {
-  color: #00CC99;
-  font-weight: bold;
+  color: #00cc99;
 }
