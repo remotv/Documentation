@@ -34,10 +34,8 @@ Edit ``controller.conf``
 * Enter your owner, robot_key, etc. from Remo.TV
 * Change [robot] ``type=none`` to ``type=cozmo``
 * Change [tts] ``type=none`` to ``type=cozmo_tts``
-
-* ~~ Change [ffmpeg] ```type=ffmpeg-arecord``` to ```type=cozmo_vid``` ~~
-
-* Using the custom cozmo.py code from the main remo.tv repository worked on the previous letsrobot.tv site, but has actually not been known to work yet on the new remo.tv website. You may need to use a different camera source, using ``type=ffmpeg``. See `this fork <https://github.com/ztoddw/RemoTV-controller-Cozmo>`_ for a repo that has been working to use your integrated webcam pc, with an overlay showing the Cozmo 1st person view camera.
+* Using ``[ffmpeg] type=cozmo_vid``, along with the custom cozmo.py code from the main remo.tv repository, worked on the previous letsrobot.tv site, but has actually not been known to work yet on the new remo.tv website. You may need to use a different camera source, using ``[ffmpeg] type=ffmpeg``.
+    * See `this fork <https://github.com/ztoddw/RemoTV-controller-Cozmo>`_ for a repo that has been working to use your integrated webcam pc, with an overlay showing the Cozmo 1st person view camera.
 * In [ffmpeg] comment out the existing ffmpeg_location and uncomment the windows 
   version below it.
 
